@@ -1,4 +1,3 @@
-using System;
 using System.Windows.Forms;
 using MyGame.Screens;
 
@@ -14,27 +13,35 @@ namespace MyGame
 
         public void ShowMainMenu()
         {
-            Controls.Clear();
-            var screen = new MainMenuScreen(this);
-            screen.Dock = DockStyle.Fill;
-            Controls.Add(screen);
+            ShowScreen(new MainMenuScreen(this));
         }
 
         public void ShowGame()
         {
-            Controls.Clear();
             var screen = new GameScreen(this);
-            screen.Dock = DockStyle.Fill;
-            Controls.Add(screen);
+            ShowScreen(screen);
             screen.Focus();
         }
 
-        public void ShowSettings()
+        public void ShowMapEditor()
         {
-            Controls.Clear();
-            var screen = new SettingsScreen(this);
+            ShowScreen(new MapEditorScreen(this));
+        }
+
+        private void ShowScreen(UserControl screen)
+        {
+            SuspendLayout();
+
+            while (Controls.Count > 0)
+            {
+                var control = Controls[0];
+                Controls.RemoveAt(0);
+                control.Dispose();
+            }
+
             screen.Dock = DockStyle.Fill;
             Controls.Add(screen);
+            ResumeLayout();
         }
     }
 }

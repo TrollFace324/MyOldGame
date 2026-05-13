@@ -1,14 +1,23 @@
-using System;
-
 namespace MyGame
 {
-    public class Projectile(float x, float y, MoveDirection direction, float speed)
+    public enum ProjectileOwner
+    {
+        Player,
+        Enemy
+    }
+
+    // Хранит состояние летящего снаряда
+    public class Projectile(float x, float y, MoveDirection direction, float speed, int damage, ProjectileOwner owner)
     {
         public float X { get; private set; } = x;
         public float Y { get; private set; } = y;
         public MoveDirection Direction { get; } = direction;
         public float Speed { get; } = speed;
+        public int Damage { get; } = damage;
+        public ProjectileOwner Owner { get; } = owner;
+        public MapPoint CenterPoint => new MapPoint(X, Y);
 
+        // Двигает снаряд в его направлении
         public void Update(float deltaTime)
         {
             var distance = Speed * deltaTime;

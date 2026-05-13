@@ -1,0 +1,363 @@
+{
+  "width": 10,
+  "height": 10,
+  "terrain": [
+    {
+      "column": 4,
+      "row": 0,
+      "type": "Bush"
+    },
+    {
+      "column": 5,
+      "row": 0,
+      "type": "Bush"
+    },
+    {
+      "column": 7,
+      "row": 0,
+      "type": "Bush"
+    },
+    {
+      "column": 8,
+      "row": 0,
+      "type": "Stone"
+    },
+    {
+      "column": 3,
+      "row": 2,
+      "type": "Bush"
+    },
+    {
+      "column": 4,
+      "row": 2,
+      "type": "Bush"
+    },
+    {
+      "column": 3,
+      "row": 3,
+      "type": "Stone"
+    },
+    {
+      "column": 4,
+      "row": 3,
+      "type": "Bush"
+    },
+    {
+      "column": 3,
+      "row": 4,
+      "type": "Stone"
+    },
+    {
+      "column": 7,
+      "row": 4,
+      "type": "Water"
+    },
+    {
+      "column": 8,
+      "row": 4,
+      "type": "Water"
+    },
+    {
+      "column": 9,
+      "row": 4,
+      "type": "Water"
+    },
+    {
+      "column": 0,
+      "row": 5,
+      "type": "Stone"
+    },
+    {
+      "column": 5,
+      "row": 5,
+      "type": "Bush"
+    },
+    {
+      "column": 6,
+      "row": 5,
+      "type": "Stone"
+    },
+    {
+      "column": 7,
+      "row": 5,
+      "type": "Water"
+    },
+    {
+      "column": 8,
+      "row": 5,
+      "type": "Water"
+    },
+    {
+      "column": 9,
+      "row": 5,
+      "type": "Water"
+    },
+    {
+      "column": 6,
+      "row": 6,
+      "type": "Water"
+    },
+    {
+      "column": 7,
+      "row": 6,
+      "type": "Water"
+    },
+    {
+      "column": 8,
+      "row": 6,
+      "type": "Water"
+    },
+    {
+      "column": 9,
+      "row": 6,
+      "type": "Water"
+    },
+    {
+      "column": 0,
+      "row": 7,
+      "type": "Bush"
+    },
+    {
+      "column": 1,
+      "row": 7,
+      "type": "Bush"
+    },
+    {
+      "column": 4,
+      "row": 7,
+      "type": "Bush"
+    },
+    {
+      "column": 6,
+      "row": 7,
+      "type": "Water"
+    },
+    {
+      "column": 7,
+      "row": 7,
+      "type": "Water"
+    },
+    {
+      "column": 8,
+      "row": 7,
+      "type": "Water"
+    },
+    {
+      "column": 9,
+      "row": 7,
+      "type": "Water"
+    },
+    {
+      "column": 6,
+      "row": 8,
+      "type": "Water"
+    },
+    {
+      "column": 7,
+      "row": 8,
+      "type": "Water"
+    },
+    {
+      "column": 8,
+      "row": 8,
+      "type": "Water"
+    },
+    {
+      "column": 9,
+      "row": 8,
+      "type": "Water"
+    },
+    {
+      "column": 0,
+      "row": 9,
+      "type": "Stone"
+    },
+    {
+      "column": 5,
+      "row": 9,
+      "type": "Stone"
+    },
+    {
+      "column": 6,
+      "row": 9,
+      "type": "Water"
+    },
+    {
+      "column": 7,
+      "row": 9,
+      "type": "Water"
+    },
+    {
+      "column": 8,
+      "row": 9,
+      "type": "Water"
+    },
+    {
+      "column": 9,
+      "row": 9,
+      "type": "Water"
+    }
+  ],
+  "fences": [
+    {
+      "first": {
+        "column": 0,
+        "row": 6
+      },
+      "second": {
+        "column": 0,
+        "row": 7
+      }
+    },
+    {
+      "first": {
+        "column": 1,
+        "row": 6
+      },
+      "second": {
+        "column": 1,
+        "row": 7
+      }
+    },
+    {
+      "first": {
+        "column": 2,
+        "row": 6
+      },
+      "second": {
+        "column": 2,
+        "row": 7
+      }
+    },
+    {
+      "first": {
+        "column": 4,
+        "row": 6
+      },
+      "second": {
+        "column": 4,
+        "row": 7
+      }
+    },
+    {
+      "first": {
+        "column": 1,
+        "row": 3
+      },
+      "second": {
+        "column": 2,
+        "row": 3
+      }
+    },
+    {
+      "first": {
+        "column": 6,
+        "row": 1
+      },
+      "second": {
+        "column": 7,
+        "row": 1
+      }
+    },
+    {
+      "first": {
+        "column": 6,
+        "row": 0
+      },
+      "second": {
+        "column": 7,
+        "row": 0
+      }
+    },
+    {
+      "first": {
+        "column": 6,
+        "row": 3
+      },
+      "second": {
+        "column": 7,
+        "row": 3
+      }
+    },
+    {
+      "first": {
+        "column": 0,
+        "row": 4
+      },
+      "second": {
+        "column": 0,
+        "row": 5
+      }
+    },
+    {
+      "first": {
+        "column": 1,
+        "row": 4
+      },
+      "second": {
+        "column": 1,
+        "row": 5
+      }
+    },
+    {
+      "first": {
+        "column": 3,
+        "row": 1
+      },
+      "second": {
+        "column": 3,
+        "row": 2
+      }
+    },
+    {
+      "first": {
+        "column": 4,
+        "row": 1
+      },
+      "second": {
+        "column": 4,
+        "row": 2
+      }
+    },
+    {
+      "first": {
+        "column": 4,
+        "row": 4
+      },
+      "second": {
+        "column": 4,
+        "row": 5
+      }
+    },
+    {
+      "first": {
+        "column": 1,
+        "row": 2
+      },
+      "second": {
+        "column": 2,
+        "row": 2
+      }
+    },
+    {
+      "first": {
+        "column": 1,
+        "row": 1
+      },
+      "second": {
+        "column": 1,
+        "row": 2
+      }
+    },
+    {
+      "first": {
+        "column": 0,
+        "row": 1
+      },
+      "second": {
+        "column": 0,
+        "row": 2
+      }
+    }
+  ]
+}
